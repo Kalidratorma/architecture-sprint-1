@@ -15,6 +15,7 @@ import Login from "./Login";
 import InfoTooltip from "./InfoTooltip";
 import ProtectedRoute from "./ProtectedRoute";
 import * as auth from "../utils/auth.js";
+import '../index.css';
 
 function App() {
   const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] =
